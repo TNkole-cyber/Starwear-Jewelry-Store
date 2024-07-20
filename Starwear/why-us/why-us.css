@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*  Navigation */
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-weight:600;
+}
+
+body {
+	letter-spacing: 0.01rem;
+	background-color: rgb(250, 250, 220);
+}
+
+body * {
+	font-size: 1.2vw;
+}
+
+#navigation {
+	color: rgb(0, 0, 0);
+	padding: 1rem;
+	user-select: none;
+	position: fixed;
+	width: 85vw;
+	margin-top: -3rem;
+	margin-left: -1rem;
+	padding-top: 3rem;
+	padding-left: 15%;
+	padding-right: 100%;
+	padding-bottom: 1rem;
+	z-index: 1;
+	display: flow-root;
+	grid-auto-flow: column;
+	overflow-wrap: normal;
+}
+
+#navigation * {
+	font-size: 1.175rem;
+	padding: 0.5rem;
+	line-height: 1.5rem;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: 200ms;
+}
+
+#navigation .background {
+	background-color: white;
+	position: fixed;
+	width: 120%;
+	padding-left: 100%;
+	top: 0;
+	left: 0;
+	height: calc(8rem - 5vw);
+	z-index: -1;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+}
+
+#starwear {
+	font-size: 1.75rem;
+	cursor: auto;
+}
+
+#current-page {
+	font-weight: 550;
+}
+
+#navigation .links {
+	font-size: 1rem;
+	color: rgba(0, 0, 0, 0.70);
+	transition: 200ms;
+}
+
+#navigation .links:hover {
+	font-size: 1.1rem;
+	color: rgb(0, 0, 0);
+	transition: 200ms;
+}
+
+/* ^ Navigation */
+
+/* Why us */
+
+#why-us {
+	margin-top: calc(8rem - 5vw);
+}
+.pboxes{
+	display: flex;
+	flex-wrap: wrap;
+}
+.img1{
+	width: 90%;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+}
+.img2{
+	width: 90%;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+}
+.fs{
+	font-size:3rem;
+	font-weight: 200;
+}
+.s2{
+	font-size: 3rem;
+	font-weight: 200;
+}
+.pbox1 {
+	position:relative;
+	width: 50%;
+}
+.pbox2 {
+	position: relative;
+	width: 50%;
+}
+.pbox1t {
+	position: absolute;
+	top: 2.5%;
+	width: 77.5%;
+	left: 2.5%;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.95);
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+	backdrop-filter: blur(2px);
+}
+.pbox2t {
+	position: absolute;
+	top: 2.5%;
+	width: 77.5%;
+	left: 2.5%;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: rgba(255, 255, 255, 0.95);
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+	backdrop-filter: blur(2px);
+}
+h1 {
+	font-size: 1.6vw;;
+}

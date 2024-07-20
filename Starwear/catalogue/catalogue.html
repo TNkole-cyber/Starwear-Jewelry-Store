@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>STARWEAR-Catalogue</title>
+		<link href="catalogue.css" rel="stylesheet">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	</head>
+	<header>
+		<br><div id="navigation">
+			<div class="background"></div>
+			<span id="starwear">STAR☆WEAR</span>
+			<a href="../homepage/home.html" class="links">Home</a>
+			<a href="../philosophy/philosophy.html" class="links">Our Philosophy</a>
+			<a id="current-page">Catalogue</a>
+			<a href="../why-us/why-us.html" class="links">Why Us</a>
+			<a href="../our-promise/our-promise.html" class="links">Our Promise</a>
+			<a href="../contact-us/contact.html" class="links">Contact</a>
+			<span><i class='bx bx-cart' id="open-cart" onclick="openCart()"></i></span>
+			<div id="search" onclick="closeCart()">
+				<input type="text" id="search-box">
+				<i class='bx bx-search' id="search-icon" onclick="updatePrices()"></i>
+			</div>
+		</div>
+	</header>
+	<body>
+		<img id="background" src="backdrop.jfif"><div id="overlay"></div>
+		<section id="catalogue"></section>
+		<br><center><div id="search-fail">Looks like there are no good results for your search.<div></center><br>	
+		<section id="cart" class="">
+			<center><h1>Your Cart</h1></center>
+			<i class='bx bx-x' id="cart-close" onclick="closeCart()"></i><br>
+			<div id="cart-items"></div>
+			<span id="cart-total"><b>Total:&nbsp;</b> <a>ZMW&nbsp;</a><a id="cart-total-amount">0</a></span><br><br><br>
+			<center><div id="cart-buy">Purchase</div></center><br><br><br><br><br><br><br><br><br><br><br><br>
+		</section>
+		<script src="js/error.js" defer></script>
+	</body>
+</html>

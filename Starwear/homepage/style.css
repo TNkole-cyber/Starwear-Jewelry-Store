@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*  Navigation */
+
+h2 {
+	font-weight:600;
+}
+
+body {
+	letter-spacing: 0.01rem;
+	background-color: rgb(250, 250, 220);
+}
+
+body * {
+	font-size: 1.2vw;
+	overflow: hidden;
+}
+
+#navigation {
+	color: rgb(0, 0, 0);
+	padding: 1rem;
+	user-select: none;
+	position: fixed;
+	width: 85vw;
+	margin-top: -3rem;
+	margin-left: -1rem;
+	padding-top: 3rem;
+	padding-left: 15%;
+	padding-right: 100%;
+	padding-bottom: 1rem;
+	z-index: 1;
+	display: flow-root;
+	grid-auto-flow: column;
+	overflow-wrap: normal;
+}
+
+#navigation * {
+    font-family: 'Poppins', sans-serif;
+	font-size: 1.175rem;
+	padding: 0.5rem;
+	line-height: 1.5rem;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: 200ms;
+}
+
+#navigation .background {
+	background-color: white;
+	position: fixed;
+	width: 120%;
+	padding-left: 100%;
+	top: 0;
+	left: 0;
+	height: calc(8rem - 5vw);
+	z-index: -1;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+}
+
+#starwear {
+	font-size: 1.75rem;
+	cursor: auto;
+}
+
+#current-page {
+	font-weight: 550;
+}
+
+#navigation .links {
+	font-size: 1rem;
+	color: rgba(0, 0, 0, 0.70);
+	transition: 200ms;
+}
+
+#navigation .links:hover {
+	font-size: 1.1rem;
+	color: rgb(0, 0, 0);
+	transition: 200ms;
+}
+
+/* ^ Navigation */
+
+/* Home Page */
+
+img { 
+    aspect-ratio: 1.5;
+    min-height: 100vh;
+    min-width: 100vw;
+	flex-shrink: 0;
+}
+
+.b-img {
+	position: absolute;
+    z-index: -1;
+    top: -2.5%;
+    left: 50%;
+    transform: translate(-50%);
+	overflow: hidden;
+	max-width: 100vw;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.h-img{
+    margin-top: calc(8rem - 5vw);
+    position: relative;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.h-img *{
+    text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+    font-weight: 525;
+}
+
+.c-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #000000;
+    text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.word1{
+    margin-top: 30vh;
+    margin-left: -10vw;
+    font-size:4rem;
+    font-style: italic;
+    color: #000000;
+
+}
+.word2{
+    margin-top: 1rem;
+    margin-right: -20vw;
+    font-size: 4rem;
+    font-style:italic;
+    color: #000000;
+}

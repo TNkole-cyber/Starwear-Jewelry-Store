@@ -1,0 +1,153 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/*  Navigation */
+
+h2 {
+	font-weight:600;
+}
+
+body {
+	letter-spacing: 0.01rem;
+	background-color: rgb(250, 250, 220);
+}
+
+body * {
+	font-size: 1.2vw;
+}
+
+#navigation {
+	color: rgb(0, 0, 0);
+	padding: 1rem;
+	user-select: none;
+	position: fixed;
+	width: 85vw;
+	margin-top: -3rem;
+	margin-left: -1rem;
+	padding-top: 3rem;
+	padding-left: 15%;
+	padding-right: 100%;
+	padding-bottom: 1rem;
+	z-index: 1;
+	display: flow-root;
+	grid-auto-flow: column;
+	overflow-wrap: normal;
+}
+
+#navigation * {
+    font-family: 'Poppins', sans-serif;
+	font-size: 1.175rem;
+	padding: 0.5rem;
+	line-height: 1.5rem;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: 200ms;
+}
+
+#navigation .background {
+	background-color: white;
+	position: fixed;
+	width: 120%;
+	padding-left: 100%;
+	top: 0;
+	left: 0;
+	height: calc(8rem - 5vw);
+	z-index: -1;
+	box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.185);
+}
+
+#starwear {
+	font-size: 1.75rem;
+	cursor: auto;
+}
+
+#current-page {
+	font-weight: 550;
+}
+
+#navigation .links {
+	font-size: 1rem;
+	color: rgba(0, 0, 0, 0.70);
+	transition: 200ms;
+}
+
+#navigation .links:hover {
+	font-size: 1.1rem;
+	color: rgb(0, 0, 0);
+	transition: 200ms;
+}
+
+/* ^ Navigation */
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+img {
+    width: 100%;
+}
+body {
+    color: var(--text-color);
+    background-color: rgb(245, 245, 220);
+}
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+.container * {
+    margin: 0;
+}
+section {
+    padding: 4rem 0 3rem;
+}
+
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.shop {
+    margin-top: 2rem;
+}
+
+/*Our Promise*/
+.pages{
+    display:inline-flex;
+    gap: 2.0rem;
+    font-size: 1.0rem;
+    font-weight: 500;
+    align-content: flex-end;
+}
+.p-title{
+    font-size: 6rem;
+    font-style: italic;
+    font-weight: 80;
+    text-align: center;
+    margin-top: 5rem;
+}
+.promises{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 2rem;
+}
+.prom{
+    font-size: 10rem;
+    margin-top: 100px;
+    padding-left: 18%;
+}
+.word{
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--text-color); 
+    text-align: center;
+}
